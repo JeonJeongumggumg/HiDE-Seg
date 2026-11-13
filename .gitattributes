@@ -1,0 +1,19 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.svg text eol=lf
+*.bat text eol=crlf
+
+# Preserve exact bytes of frozen inference sources checked by manifest.json.
+src/hrnet_dino_phase.py -text
+src/hrnet_phase.py -text
+src/predict.py -text
+src/README.md -text
+src/requirements-lock.txt -text
+src/rgb_spatial_refiner.py -text
+src/si_dino_appearance.py -text
+src/si_reclassifier.py -text
+src/small_structure_tools.py -text
+src/tile_d4_inference.py -text

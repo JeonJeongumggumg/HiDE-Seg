@@ -1,0 +1,17 @@
+{
+  "inference_source": "Frozen 2026-10-15 submission package",
+  "inference_source_hashes": {
+    "hrnet_dino_phase.py": "1afc60714140addcfef409742f33ecf9a3e5e5d4166f6ccd938a93f69f1cf752",
+    "hrnet_phase.py": "c5a0b348597e0a2b9c37b1e364ce1aa28f6ae3c47cc381d113cd62f7541ded73",
+    "predict.py": "e7b495873452acab3057cc05cd997202004e5f40c1220521095665530fd76d76",
+    "README.md": "7bc76fafd5a89713f483af2f4cfbe977fee5881b50ad5c95779748cd3aa3d952",
+    "requirements-lock.txt": "5b0b719ab643d5e129fce2d29e71d778dfd7f91f60c3fdc02581f3a5083db184",
+    "rgb_spatial_refiner.py": "540c72d668eec37b07e5134b2646e79164c50edb5461d13a8345e54982c7ccf4",
+    "si_dino_appearance.py": "adead9ade49f6a4392d96ceef9d55dfdd02d0d3c6160ffc9ca4f1b86c1f0cbf7",
+    "si_reclassifier.py": "9c759558038ec42277affed71d637f540bbedbd75bc64613697c2fa487ba7a45",
+    "small_structure_tools.py": "9d52920ec050acae0d1c93c809bc59f527d1f299757dfd6f6ae0ac9381a76b7d",
+    "tile_d4_inference.py": "f80d4b2f1d88d0f0a1217d3ea4689ab53c2ab7adbbc60c1895da84f824c34dc6"
+  },
+  "public_training": "Final recipes extracted into standalone entry points; full retraining not rerun during publication.",
+  "data_utilities": "read_pairs/tensor/resize_pair/Patches/ious extracted from original train_phase_detail.py"
+}

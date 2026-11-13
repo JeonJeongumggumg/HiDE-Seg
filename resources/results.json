@@ -1,0 +1,49 @@
+{
+  "development_oof70": [
+    {
+      "stage": "Base single",
+      "images": 70,
+      "miou": 0.7915213999860983,
+      "source": "analysis/tile_d4_oof/summary.csv"
+    },
+    {
+      "stage": "D4",
+      "images": 70,
+      "miou": 0.7953265421811779,
+      "source": "analysis/tile_d4_oof/summary.csv"
+    },
+    {
+      "stage": "D4 + IS-P",
+      "images": 70,
+      "miou": 0.7980529754754457,
+      "source": "analysis/is_p_si_reclassification_v1/fold_scores.csv"
+    },
+    {
+      "stage": "D4 + IS-P + B2/PCA16",
+      "images": 70,
+      "miou": 0.7998284008442141,
+      "source": "analysis/is_p_si_reclassification_v1/fold_scores.csv"
+    }
+  ],
+  "validation20": {
+    "images": 20,
+    "models_per_image": 5,
+    "miou": 0.7855968639193535,
+    "miou_absent1": 0.7916272746329616,
+    "miou_absent0": 0.7791272746329615,
+    "iou_0": 0.9085695786953281,
+    "iou_1": 0.7247279691972163,
+    "iou_2": 0.5892214137603651,
+    "iou_3": 0.939418615813703,
+    "esi_precision": 0.7325940305050046,
+    "esi_recall": 0.7611136298396736,
+    "thin_recall": 0.678744002238226
+  },
+  "test_score": null,
+  "metric": "mean of per-image class IoU; primary absent policy skip",
+  "notes": [
+    "OOF70 and valid20 are different cohorts and model-count protocols.",
+    "OOF development used repeated comparisons; postprocessor meta-CV has indirect dependencies.",
+    "valid20 was used during early development and is not a pristine independent holdout."
+  ]
+}

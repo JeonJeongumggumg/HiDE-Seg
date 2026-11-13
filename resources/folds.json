@@ -1,0 +1,360 @@
+{
+  "source": "train.zip",
+  "source_sha256": "14005ce1230dba743c8137e07596a747c1d24c646a0a858b3d7495761064a1c3",
+  "n_folds": 5,
+  "split_seed": 20260923,
+  "method": "A-group largest-first image-count balance; randomized ties",
+  "group_note": "Filename A prefix only; no alloy, process, specimen or magnification semantics are assumed.",
+  "images": [
+    {
+      "id": "A101_step3_sample3",
+      "group": "A101",
+      "fold": 1
+    },
+    {
+      "id": "A106_step4_sample1",
+      "group": "A106",
+      "fold": 3
+    },
+    {
+      "id": "A108_step2_sample2",
+      "group": "A108",
+      "fold": 1
+    },
+    {
+      "id": "A109_step1_sample3",
+      "group": "A109",
+      "fold": 4
+    },
+    {
+      "id": "A111_step1_sample2",
+      "group": "A111",
+      "fold": 1
+    },
+    {
+      "id": "A111_step3_sample4",
+      "group": "A111",
+      "fold": 1
+    },
+    {
+      "id": "A118_step2_sample1",
+      "group": "A118",
+      "fold": 3
+    },
+    {
+      "id": "A121_step2_sample2",
+      "group": "A121",
+      "fold": 0
+    },
+    {
+      "id": "A123_step1_sample1",
+      "group": "A123",
+      "fold": 3
+    },
+    {
+      "id": "A123_step4_sample2",
+      "group": "A123",
+      "fold": 3
+    },
+    {
+      "id": "A125_step2_sample1",
+      "group": "A125",
+      "fold": 3
+    },
+    {
+      "id": "A130_step1_sample1",
+      "group": "A130",
+      "fold": 0
+    },
+    {
+      "id": "A137_step4_sample2",
+      "group": "A137",
+      "fold": 3
+    },
+    {
+      "id": "A138_step4_sample3",
+      "group": "A138",
+      "fold": 3
+    },
+    {
+      "id": "A139_step3_sample4",
+      "group": "A139",
+      "fold": 0
+    },
+    {
+      "id": "A139_step4_sample3",
+      "group": "A139",
+      "fold": 0
+    },
+    {
+      "id": "A140_step4_sample2",
+      "group": "A140",
+      "fold": 2
+    },
+    {
+      "id": "A146_step2_sample1",
+      "group": "A146",
+      "fold": 3
+    },
+    {
+      "id": "A147_step4_sample4",
+      "group": "A147",
+      "fold": 3
+    },
+    {
+      "id": "A150_step4_sample1",
+      "group": "A150",
+      "fold": 2
+    },
+    {
+      "id": "A152_step2_sample1",
+      "group": "A152",
+      "fold": 1
+    },
+    {
+      "id": "A153_step1_sample4",
+      "group": "A153",
+      "fold": 1
+    },
+    {
+      "id": "A154_step2_sample3",
+      "group": "A154",
+      "fold": 3
+    },
+    {
+      "id": "A155_step3_sample2",
+      "group": "A155",
+      "fold": 2
+    },
+    {
+      "id": "A156_step4_sample1",
+      "group": "A156",
+      "fold": 2
+    },
+    {
+      "id": "A156_step4_sample2",
+      "group": "A156",
+      "fold": 2
+    },
+    {
+      "id": "A159_step4_sample4",
+      "group": "A159",
+      "fold": 4
+    },
+    {
+      "id": "A15_step1_sample1",
+      "group": "A15",
+      "fold": 2
+    },
+    {
+      "id": "A164_step1_sample2",
+      "group": "A164",
+      "fold": 4
+    },
+    {
+      "id": "A164_step4_sample1",
+      "group": "A164",
+      "fold": 4
+    },
+    {
+      "id": "A166_step4_sample3",
+      "group": "A166",
+      "fold": 0
+    },
+    {
+      "id": "A167_step3_sample4",
+      "group": "A167",
+      "fold": 0
+    },
+    {
+      "id": "A16_step4_sample4",
+      "group": "A16",
+      "fold": 4
+    },
+    {
+      "id": "A181_step4_sample4",
+      "group": "A181",
+      "fold": 4
+    },
+    {
+      "id": "A182_step4_sample3",
+      "group": "A182",
+      "fold": 4
+    },
+    {
+      "id": "A187_step2_sample1",
+      "group": "A187",
+      "fold": 3
+    },
+    {
+      "id": "A187_step4_sample4",
+      "group": "A187",
+      "fold": 3
+    },
+    {
+      "id": "A188_step4_sample1",
+      "group": "A188",
+      "fold": 4
+    },
+    {
+      "id": "A18_step2_sample1",
+      "group": "A18",
+      "fold": 3
+    },
+    {
+      "id": "A191_step3_sample1",
+      "group": "A191",
+      "fold": 2
+    },
+    {
+      "id": "A191_step4_sample1",
+      "group": "A191",
+      "fold": 2
+    },
+    {
+      "id": "A200_step4_sample3",
+      "group": "A200",
+      "fold": 1
+    },
+    {
+      "id": "A201_step3_sample1",
+      "group": "A201",
+      "fold": 1
+    },
+    {
+      "id": "A201_step3_sample4",
+      "group": "A201",
+      "fold": 1
+    },
+    {
+      "id": "A21_step2_sample4",
+      "group": "A21",
+      "fold": 0
+    },
+    {
+      "id": "A222_step2_sample2",
+      "group": "A222",
+      "fold": 0
+    },
+    {
+      "id": "A224_step1_sample2",
+      "group": "A224",
+      "fold": 2
+    },
+    {
+      "id": "A224_step4_sample2",
+      "group": "A224",
+      "fold": 2
+    },
+    {
+      "id": "A2_step4_sample1",
+      "group": "A2",
+      "fold": 4
+    },
+    {
+      "id": "A39_step2_sample3",
+      "group": "A39",
+      "fold": 0
+    },
+    {
+      "id": "A40_step3_sample4",
+      "group": "A40",
+      "fold": 4
+    },
+    {
+      "id": "A49_step2_sample2",
+      "group": "A49",
+      "fold": 0
+    },
+    {
+      "id": "A51_step4_sample4",
+      "group": "A51",
+      "fold": 1
+    },
+    {
+      "id": "A55_step3_sample4",
+      "group": "A55",
+      "fold": 2
+    },
+    {
+      "id": "A57_step1_sample3",
+      "group": "A57",
+      "fold": 2
+    },
+    {
+      "id": "A61_step2_sample2",
+      "group": "A61",
+      "fold": 1
+    },
+    {
+      "id": "A64_step2_sample3",
+      "group": "A64",
+      "fold": 3
+    },
+    {
+      "id": "A66_step3_sample2",
+      "group": "A66",
+      "fold": 1
+    },
+    {
+      "id": "A69_step4_sample4",
+      "group": "A69",
+      "fold": 4
+    },
+    {
+      "id": "A78_step4_sample1",
+      "group": "A78",
+      "fold": 2
+    },
+    {
+      "id": "A7_step1_sample2",
+      "group": "A7",
+      "fold": 4
+    },
+    {
+      "id": "A7_step4_sample3",
+      "group": "A7",
+      "fold": 4
+    },
+    {
+      "id": "A83_step1_sample2",
+      "group": "A83",
+      "fold": 1
+    },
+    {
+      "id": "A87_step2_sample2",
+      "group": "A87",
+      "fold": 0
+    },
+    {
+      "id": "A89_step1_sample2",
+      "group": "A89",
+      "fold": 4
+    },
+    {
+      "id": "A8_step2_sample3",
+      "group": "A8",
+      "fold": 0
+    },
+    {
+      "id": "A8_step3_sample3",
+      "group": "A8",
+      "fold": 0
+    },
+    {
+      "id": "A94_step4_sample2",
+      "group": "A94",
+      "fold": 0
+    },
+    {
+      "id": "A96_step1_sample1",
+      "group": "A96",
+      "fold": 2
+    },
+    {
+      "id": "A98_step2_sample4",
+      "group": "A98",
+      "fold": 1
+    }
+  ]
+}

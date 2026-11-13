@@ -1,0 +1,124 @@
+{
+  "format_version": 1,
+  "model": "seed42 direct64 D4 IS-P B2-PCA16 per-fold then mean5",
+  "versions": {
+    "torch": "2.9.1+cu128",
+    "timm": "1.0.29",
+    "numpy": "2.4.6",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.17.1",
+    "Pillow": "12.3.0",
+    "joblib": "1.6.0",
+    "segmentation-models-pytorch": "0.5.0",
+    "safetensors": "0.8.0",
+    "torchvision": "0.24.1+cu128",
+    "scikit-image": "0.26.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "provenance": {
+    "small_structure_tools.py": "9d52920ec050acae0d1c93c809bc59f527d1f299757dfd6f6ae0ac9381a76b7d",
+    "hrnet_phase.py": "c5a0b348597e0a2b9c37b1e364ce1aa28f6ae3c47cc381d113cd62f7541ded73",
+    "hrnet_dino_phase.py": "1afc60714140addcfef409742f33ecf9a3e5e5d4166f6ccd938a93f69f1cf752",
+    "rgb_spatial_refiner.py": "540c72d668eec37b07e5134b2646e79164c50edb5461d13a8345e54982c7ccf4",
+    "tile_d4_inference.py": "f80d4b2f1d88d0f0a1217d3ea4689ab53c2ab7adbbc60c1895da84f824c34dc6",
+    "si_reclassifier.py": "9c759558038ec42277affed71d637f540bbedbd75bc64613697c2fa487ba7a45",
+    "si_dino_appearance.py": "adead9ade49f6a4392d96ceef9d55dfdd02d0d3c6160ffc9ca4f1b86c1f0cbf7",
+    "models\\fold0\\base.pt": {
+      "source": "runs\\group_kfold_dino_direct\\fold0_hrnet_exchange\\best.pt",
+      "original_sha256": "c74bd2f716d3437c73b716da0c4f6540cba3dfe2f501614b020c60323d7580a6",
+      "tensor_equality": true
+    },
+    "models\\fold0\\refiner.pt": {
+      "source": "runs\\rgb_refiner_is_v1\\fold0\\IS_P\\last.pt",
+      "original_sha256": "47ec5e5b3ea7e53d1c1a91ffc3bbdc0870909e7b65178d8fe807195817c15702",
+      "tensor_equality": true
+    },
+    "models\\fold0\\reclassifier.joblib": {
+      "source": "analysis\\is_p_si_reclassification_v1\\fold0\\B2-DINO.joblib",
+      "original_sha256": "4cac30aba6ec06d1c3f100ad9759b1ef1a1a3e005f08acf38332b2c759850140"
+    },
+    "models\\fold1\\base.pt": {
+      "source": "runs\\group_kfold_dino_direct\\fold1_hrnet_exchange\\best.pt",
+      "original_sha256": "d7dfa430251eb372d7da3f737f2373fe8914873d57f4e47a3fd1aea94cbd5a79",
+      "tensor_equality": true
+    },
+    "models\\fold1\\refiner.pt": {
+      "source": "runs\\rgb_refiner_is_v1\\fold1\\IS_P\\last.pt",
+      "original_sha256": "5fefe0a2f72bffe72cf2dcadbc75045c5bf619c31f491d84ec43a1e3022dbbe5",
+      "tensor_equality": true
+    },
+    "models\\fold1\\reclassifier.joblib": {
+      "source": "analysis\\is_p_si_reclassification_v1\\fold1\\B2-DINO.joblib",
+      "original_sha256": "3fa690f334316aa869e79de1a7f25644100f834175631a81352255da4c1a4718"
+    },
+    "models\\fold2\\base.pt": {
+      "source": "runs\\group_kfold_dino_direct\\fold2_hrnet_exchange\\best.pt",
+      "original_sha256": "661dbe263559f5c19a709aed228e5874efbb4c99dc38746190cf1c87e43099f3",
+      "tensor_equality": true
+    },
+    "models\\fold2\\refiner.pt": {
+      "source": "runs\\is_p_fold234_v1\\fold2\\IS_P\\last.pt",
+      "original_sha256": "e93f5aefe3cd44ec322a8427a9d8fb1f3b53d3d49be7ca58f096437f077babca",
+      "tensor_equality": true
+    },
+    "models\\fold2\\reclassifier.joblib": {
+      "source": "analysis\\is_p_si_reclassification_v1\\fold2\\B2-DINO.joblib",
+      "original_sha256": "29426c8e5600222387bfc3e6c3bcc10ba083c8d5db5e78e7fb42a5f08d94f290"
+    },
+    "models\\fold3\\base.pt": {
+      "source": "runs\\group_kfold_dino_direct\\fold3_hrnet_exchange\\best.pt",
+      "original_sha256": "5b1a0d73dd49860fb06ceeadd55cfda90082890bd1fc0657f26959153b5fa3e2",
+      "tensor_equality": true
+    },
+    "models\\fold3\\refiner.pt": {
+      "source": "runs\\is_p_fold234_v1\\fold3\\IS_P\\last.pt",
+      "original_sha256": "3deaec8a23bfefbf5c015a1538dbbf292334b64b26b892e5ee99a79c2b4add74",
+      "tensor_equality": true
+    },
+    "models\\fold3\\reclassifier.joblib": {
+      "source": "analysis\\is_p_si_reclassification_v1\\fold3\\B2-DINO.joblib",
+      "original_sha256": "fe442edb21bc6a9c4a0bbd7d68412cb0e5fa1e4c054f3f479daeee79d5c701c5"
+    },
+    "models\\fold4\\base.pt": {
+      "source": "runs\\group_kfold_dino_direct\\fold4_hrnet_exchange\\best.pt",
+      "original_sha256": "d4c16b070569926ac6ba1c4cc802067413e4b09bfb7e5ba8767c62b8ea2da46f",
+      "tensor_equality": true
+    },
+    "models\\fold4\\refiner.pt": {
+      "source": "runs\\is_p_fold234_v1\\fold4\\IS_P\\last.pt",
+      "original_sha256": "2e738f9e3bfdb9fe5c32931c6d4b6d7a3eb884f1a46659dca6d69567d742f918",
+      "tensor_equality": true
+    },
+    "models\\fold4\\reclassifier.joblib": {
+      "source": "analysis\\is_p_si_reclassification_v1\\fold4\\B2-DINO.joblib",
+      "original_sha256": "a40e08604d7dbe0277d6ed4ff8040e922ca026984aa76f17f3f86603ac92f925"
+    }
+  },
+  "files": {
+    "hrnet_dino_phase.py": "1afc60714140addcfef409742f33ecf9a3e5e5d4166f6ccd938a93f69f1cf752",
+    "hrnet_phase.py": "c5a0b348597e0a2b9c37b1e364ce1aa28f6ae3c47cc381d113cd62f7541ded73",
+    "predict.py": "e7b495873452acab3057cc05cd997202004e5f40c1220521095665530fd76d76",
+    "README.md": "7bc76fafd5a89713f483af2f4cfbe977fee5881b50ad5c95779748cd3aa3d952",
+    "requirements-lock.txt": "5b0b719ab643d5e129fce2d29e71d778dfd7f91f60c3fdc02581f3a5083db184",
+    "rgb_spatial_refiner.py": "540c72d668eec37b07e5134b2646e79164c50edb5461d13a8345e54982c7ccf4",
+    "si_dino_appearance.py": "adead9ade49f6a4392d96ceef9d55dfdd02d0d3c6160ffc9ca4f1b86c1f0cbf7",
+    "si_reclassifier.py": "9c759558038ec42277affed71d637f540bbedbd75bc64613697c2fa487ba7a45",
+    "small_structure_tools.py": "9d52920ec050acae0d1c93c809bc59f527d1f299757dfd6f6ae0ac9381a76b7d",
+    "tile_d4_inference.py": "f80d4b2f1d88d0f0a1217d3ea4689ab53c2ab7adbbc60c1895da84f824c34dc6",
+    "models/fold0/base.pt": "2eae50d969b545669da02cbae2ec527d56430acd5a4e889e327d8cf374988799",
+    "models/fold0/reclassifier.joblib": "4cac30aba6ec06d1c3f100ad9759b1ef1a1a3e005f08acf38332b2c759850140",
+    "models/fold0/refiner.pt": "e937d67b3dc3d7588e9ef24af32e325b8ad0cde9841ede112bff195eac799582",
+    "models/fold1/base.pt": "586aa3c2890a1df56d45198f1c42f5f59236a8aad44a7cb3eb199d9bb47cea15",
+    "models/fold1/reclassifier.joblib": "3fa690f334316aa869e79de1a7f25644100f834175631a81352255da4c1a4718",
+    "models/fold1/refiner.pt": "6084848f9d330604f4afe522caf2b93dc60fba43dcb2563bad3ab5d415c543d0",
+    "models/fold2/base.pt": "c8c6cda91ed19bcde7f70cb82b2df92dc59a61f587e152b1f893ccc76af4d63b",
+    "models/fold2/reclassifier.joblib": "29426c8e5600222387bfc3e6c3bcc10ba083c8d5db5e78e7fb42a5f08d94f290",
+    "models/fold2/refiner.pt": "24ce6f8c7248d08adea3e66c2303654c33ea6b35ded2fa382d0469185d32621b",
+    "models/fold3/base.pt": "98be0d0e62ed2c8fe7b5176b30c344113618c96e8b95bc9193e62148b0b77da1",
+    "models/fold3/reclassifier.joblib": "fe442edb21bc6a9c4a0bbd7d68412cb0e5fa1e4c054f3f479daeee79d5c701c5",
+    "models/fold3/refiner.pt": "d45867f5f08852dcd879eac659e2f0808055602d98d2be1b56109e48a97aee54",
+    "models/fold4/base.pt": "5870a33cdf5a7ae318b241511a19a68cc5641ea71ee25ebd013be6a10df415f3",
+    "models/fold4/reclassifier.joblib": "a40e08604d7dbe0277d6ed4ff8040e922ca026984aa76f17f3f86603ac92f925",
+    "models/fold4/refiner.pt": "77f454a318aa7467ccfa69cefbd94f8c5037c2cc98d7e7479afb707c1ef38176"
+  }
+}

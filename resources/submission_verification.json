@@ -1,0 +1,9 @@
+{
+  "images": 10,
+  "fold_predictions": 50,
+  "all_probability_arrays_exact": true,
+  "max_abs_probability_delta": 0.0,
+  "changed_final_mask_pixels": 0,
+  "masks_all_sha256_match": true,
+  "inference_network_blocked": true
+}
